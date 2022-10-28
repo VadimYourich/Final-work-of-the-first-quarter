@@ -20,6 +20,7 @@ void GeneratedArray(string[] array1, string[] array2)
 }
 void PrintArray(string[] array)
 {
+    Console.WriteLine($"Массив из строк, длина которых меньше либо равна {n} символа: ");
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]} ");
